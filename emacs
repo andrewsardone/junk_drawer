@@ -1,10 +1,10 @@
+#!/bin/sh
+
 # emacs wrapper script
 #  starts emacs if it's not running, or starts up
 #  a new buffer if it's already running  
 # via killdash10 on stackoverflow
 # http://stackoverflow.com/questions/116560/open-an-emacs-buffer-when-a-command-tries-to-open-an-editor-in-shell-mode
-
-#!/bin/sh
 
 if [ -z $EMACS_CMD ]; then
   EMACS_CMD="/usr/bin/emacs"
