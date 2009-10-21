@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+[[ -n "$1" ]] || { echo "Usage: $0 project_name"; exit 0 ; }
+
+mkdir -m 770 $1.git
+cd $1.git
+git --bare init --shared=group
