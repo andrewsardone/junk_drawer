@@ -13,6 +13,9 @@
 # Show Link URL in Tool Tip
 defaults write com.apple.Safari WebKitShowsURLsInToolTips -boolean
 
+# Open New Windows in New Tabs
+defaults write com.apple.Safari TargetedClicksCreateTabs -bool true
+
 #### Dock ####
 
 # New Snow Leopard List-style stack
